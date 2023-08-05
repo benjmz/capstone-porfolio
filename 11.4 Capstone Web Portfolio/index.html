@@ -13,40 +13,38 @@
 
 <body>
     <section>
-        <nav class="navigation">
-            <div class="flex-item">
-                <a href="#home">
-                    <p>Home</p>
-                </a>
-            </div>
-            <div class="flex-item">
-                <a href="#about">
-                    <p>About Me</p>
-                </a>
-            </div>
-            <div class="flex-item">
-                <a href="#projects">
-                    <p>Projects</p>
-                </a>
-            </div>
-            <div class="flex-item">
-                <a href="contactme">
-                    <p>Contact Me</p>
-                </a>
-            </div>
-        </nav>
+        <div class="nav-wrapper">
+            <nav class="navigation">
+                <div class="flex-item">
+                    <a href="#home">
+                        <p>Home</p>
+                    </a>
+                </div>
+                <div class="flex-item">
+                    <a href="#about">
+                        <p>About Me</p>
+                    </a>
+                </div>
+                <div class="flex-item">
+                    <a href="#projects">
+                        <p>Projects</p>
+                    </a>
+                </div>
+                <div class="flex-item">
+                    <a href="#contactme">
+                        <p>Contact Me</p>
+                    </a>
+                </div>
+            </nav>
+        </div>
     </section>
 
     <!--- Title page -->
     <section class="title page" id="home">
-        <div class="title-container">
+        <div class="title container">
             <div id="title-text">
-                <div id="title-header" id="title-header">
-                    <h1>Benjamin Jimenez</h1>
-                </div>
-                <div class="title-subheader">
-                    <h3>FRONT-END WEB DEVELOPER</h3>
-                </div>
+                <h1 id="title-header">Benjamin Jimenez</h1>
+                <h3 class="title-subheader">FRONT-END WEB DEVELOPER</h3>
             </div>
             <div id="title-image">
                 <img src="./imgs/Pete.png" class="rs">
@@ -56,9 +54,11 @@
 
     <!--- About Me page -->
     <section class="about-me page" id="about">
-        <div class="about-me-container">
-            <div class="about-me-text">
-                <p style="text-align: center;"><span>👋<br></span>"Hello! I'm Benjamin Jimenez, a passionate and
+        <div class="about-me container">
+            <img src="./imgs/eng.png" class="rs">
+            <div class="text-wrapper">
+                <p class="about-me-text" style="text-align: center;"><span>👋<br></span>"Hello! I'm Benjamin Jimenez, a
+                    passionate and
                     versatile front-end web developer and engineer. With a flair for design and an analytical
                     mindset, I thrive on creative problem-solving and bringing captivating digital experiences to
                     life. As an avid believer in the power of technology, I constantly seek ways to give back to the
@@ -72,6 +72,7 @@
 
     <!--- Project page -->
     <section class="project page" id="projects">
+        <h2 style="text-align: center;">Here are some of my projects:</h2>
         <div class="project-container">
             <div class="project-card">
                 <img src="./imgs/fdmb.PNG" alt="FDMB">
@@ -99,7 +100,11 @@
 
     <!--- Contact page -->
     <section class="contact page" id="contactme">
-        <p>contact me</p>
+        <div class="contact container">
+            <p>Embark on your quest and contact me at these social platforms. <a
+                    href="https://www.github.com">Github</a> <a href="https://www.linkedin.com">LinkedIn</a></p>
+            <img src="./imgs/contact.png" class="rs">
+        </div>
     </section>
 
 </body>
