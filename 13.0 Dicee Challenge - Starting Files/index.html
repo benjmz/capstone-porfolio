@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disco Dice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="game">
+        <div class="title">
+            <h1>Disco Dice</h1>
+        </div>
+        <div class="container">
+            <div id="dice1" class="dice">
+                <div class="dice-face face-one dice-one ">
+                    <div class="dot one-1 dot-1"></div>
+                </div>
+                <div class="dice-face face-two dice-one">
+                    <div class="dot two-1 dot-1"></div>
+                    <div class="dot two-2 dot-1"></div>
+                </div>
+                <div class="dice-face face-three dice-one">
+                    <div class="dot three-1 dot-1"></div>
+                    <div class="dot three-2 dot-1"></div>
+                    <div class="dot three-3 dot-1"></div>
+                </div>
+                <div class="dice-face face-four dice-one">
+                    <div class="dot four-1 dot-1"></div>
+                    <div class="dot four-2 dot-1"></div>
+                    <div class="dot four-3 dot-1"></div>
+                    <div class="dot four-4 dot-1"></div>
+                </div>
+                <div class="dice-face face-five dice-one">
+                    <div class="dot five-1 dot-1"></div>
+                    <div class="dot five-2 dot-1"></div>
+                    <div class="dot five-3 dot-1"></div>
+                    <div class="dot five-4 dot-1"></div>
+                    <div class="dot five-5 dot-1"></div>
+                </div>
+                <div class="dice-face face-six dice-one">
+                    <div class="dot six-1 dot-1"></div>
+                    <div class="dot six-2 dot-1"></div>
+                    <div class="dot six-3 dot-1"></div>
+                    <div class="dot six-4 dot-1"></div>
+                    <div class="dot six-5 dot-1"></div>
+                    <div class="dot six-6 dot-1"></div>
+                </div>
+            </div>
+            <div id="dice2" class="dice ">
+                <div class="dice-face face-one dice-two">
+                    <div class="dot one-1 dot-2"></div>
+                </div>
+                <div class="dice-face face-two dice-two">
+                    <div class="dot two-1 dot-2"></div>
+                    <div class="dot two-2 dot-2"></div>
+                </div>
+                <div class="dice-face face-three dice-two">
+                    <div class="dot three-1 dot-2"></div>
+                    <div class="dot three-2 dot-2"></div>
+                    <div class="dot three-3 dot-2"></div>
+                </div>
+                <div class="dice-face face-four dice-two">
+                    <div class="dot four-1 dot-2"></div>
+                    <div class="dot four-2 dot-2"></div>
+                    <div class="dot four-3 dot-2"></div>
+                    <div class="dot four-4 dot-2"></div>
+                </div>
+                <div class="dice-face face-five dice-two">
+                    <div class="dot five-1 dot-2"></div>
+                    <div class="dot five-2 dot-2"></div>
+                    <div class="dot five-3 dot-2"></div>
+                    <div class="dot five-4 dot-2"></div>
+                    <div class="dot five-5 dot-2"></div>
+                </div>
+                <div class="dice-face face-six dice-two">
+                    <div class="dot six-1 dot-2"></div>
+                    <div class="dot six-2 dot-2"></div>
+                    <div class="dot six-3 dot-2"></div>
+                    <div class="dot six-4 dot-2"></div>
+                    <div class="dot six-5 dot-2"></div>
+                    <div class="dot six-6 dot-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-container">
+            <div>
+                <button onclick="letsBoogie()" class="btn">
+                    <h2>Let's Boogie!</h2>
+                </button>
+            </div>
+        </div>
+    </div>
+    <audio autoplay loop>
+        <source src="./assets/mp3/loop.mp3" type="audio/mp3">Your browser does not support the audio element.
+    </audio>
+    <script src="./script.js"></script>
+</body>
+
+</html>
